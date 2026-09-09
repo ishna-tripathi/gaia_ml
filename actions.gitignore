@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Large data files
+data/*.csv
+data/*.vot
+data/*.vot.gz
+data/*.fits
+
+# Generated files
+figures/
+*.png
+*.pdf
+
+# Secrets
+.env
+*.json
+
+# macOS
+.DS_Store
